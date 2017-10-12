@@ -293,40 +293,6 @@ BILDENE
 
 
 /*****************************************
-BILDEGALLERIET
-******************************************/
-
-
-.gallery {
-	padding: 0 1rem;
-}
-
-.responsive-image {
-	max-width: 100%;
-}
-
-.cell {
-	margin: .25rem;
-}
-
-.cell img {
-  display: block;
-}
-
-@media screen and (min-width: 600px) {
-  .grid {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-  .cell {
-    width: 48%;
-  }
-}
-
-
-
-/*****************************************
 FOOTER
 ******************************************/
 
@@ -365,6 +331,12 @@ MOBILE
 		font-size: 1em;
 		width: 100%;
 	}
+	.bilderamme {
+		margin-left: -1em;
+		margin-right: -1em;
+		overflow: hidden;
+	}
+
 }
 
 
