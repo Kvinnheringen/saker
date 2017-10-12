@@ -357,6 +357,8 @@ MOBILE
 	}
 	.sitat {
 		font-size: 1.2em;
+		width: 100%;
+		background-color: pink;
 	}
 }
 
