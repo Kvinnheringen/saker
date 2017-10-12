@@ -350,24 +350,19 @@ footer {
 MOBILE
 ******************************************/
 
-
-@media (max-width: 770px) {
-	.main {
-		width: 100%;
-	}
-	.sitat {
-		font-size: 1.2em;
-		width: 100%;
-		background-color: pink;
-	}
-}
-
 @media (max-width: 900px) {
 	h1#main-title {
 		font-size: 13em;
 	}
 	p.tagline {
 		font-size: 1.4em;
+	}
+	.main {
+		width: 100%;
+	}
+	.sitat {
+		font-size: 1.2em;
+		width: 100%;
 	}
 }
 
